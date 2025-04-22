@@ -37,3 +37,6 @@ const processNumbers = (numbers) => {
 // Chain everything into a single expression (most efficient form)
 const processNumbers = (numbers) =>
   numbers.filter((num) => num % 2 === 0).map((num) => num * 2);
+
+const numbers = "jisdf d isd sdjs s";
+console.log(numbers);
