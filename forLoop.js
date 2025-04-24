@@ -8,6 +8,8 @@ const numbers = [10, 20, 30, 40, 50];
 for (const num of numbers) {
   console.log(num); // Prints 10, 20, 30, 40, 50
 }
+
+
 // Example of a for...in loop (for objects)
 const person = {
   name: "John",
@@ -21,6 +23,8 @@ for (const key in person) {
   // age 30
   // country Bangladesh
 }
+
+
 // Example of a forEach loop
 numbers = [10, 20, 30, 40, 50];
 numbers.forEach((num) => {

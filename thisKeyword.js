@@ -29,7 +29,7 @@ console.log(userArrow.greet()); // 👉 "Hello, my name is undefined"
 // 👍 Use `this` inside regular functions when working with object properties.
 
 // 🧪 Want to Experiment?
-const user = {
+user = {
   name: "Rafi",
   greet: function () {
     console.log(this); // 👉 logs the `user` object
